@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIMIHO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo link" href="./index.html">MIMIHO</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link" href="">Ресторан</a>
+              <a class="nav__phone link" href="tel:+380955559533">
+                <svg class="nav__phone-icon" width="24" height="24">
+                  <use href="./src/images/icons.svg#phone"></use>
+                </svg>
+                <span class="phone-number">095 555 95 33</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Готель</a>
+              <a class="nav__phone link" href="tel:+380668491089">
+                <svg class="nav__phone-icon">
+                  <use href="./src/images/phone.svg#icon-entypo_location-pin"></use>
+                </svg>
+                <span class="phone-number">066 849 10 89</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__social-list list">
+          <li class="social-item">
+            <a href="#" target="_blank" rel="noreferrer noopener">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./src/images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" target="_blank" rel="noreferrer noopener">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./src/images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" target="_blank" rel="noreferrer noopener">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./src/images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper-text">
+            <h1 class="hero__title">MIMIHO</h1>
+            <h2 class="hero__subtitle">Ресторанно-готельний комплекс</h2>
+            <p class="hero__slogan"><strong>СМАК ЖИТТЯ 24/7</strong></p>
+          </div>
+
+          <div class="hero__wrapper-btn-adr">
+            <address class="hero__address">
+              <a class="hero__adress-link link" href="#" target="_blank" rel="noreferrer noopener"
+                >Україна, м. Полтава, вул. Маршала Бірюзова, 15</a
+              >
+            </address>
+            <button class="hero__btn" type="button">Забронювати столик</button>
+            <button class="hero__btn" type="button">Забронювати номер</button>
+          </div>
+
+          <ul class="social-list list">
+            <li class="social-item">
+              <a href="#" target="_blank" rel="noreferrer noopener">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./src/images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" target="_blank" rel="noreferrer noopener">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./src/images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" target="_blank" rel="noreferrer noopener">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./src/images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-restaurant container">
+          <p class="about-content">Amet minim mollit non</p>
+          <h2 class="header-restaurant">MIMIHO</h2>
+          <p class="content-header">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <div class="img-interior"><img src="./src/images/restaurant-interior 2.jpg" alt="interior" width="293"></div>
+          <div class="pos-content">
+          <img src="./src/images/pexels-oruri-jacome-10456027 2.jpg" alt="pexels-oruri-jacome" width="200">
+          <p class="secondary-contant">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+
+      </section>
+      <section class="details-restaurant"></section>
+      <section class="about-hotel"></section>
+      <section class="details-hotel"></section>
+      <section class="contacts"></section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
